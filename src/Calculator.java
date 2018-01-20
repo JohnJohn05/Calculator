@@ -7,6 +7,10 @@ import java.util.Scanner;
 
 public class Calculator {
 
+    /*
+    Hi!
+     */
+
     public static void addition(int num1, int num2) {
 
         int numberOne = num1;
