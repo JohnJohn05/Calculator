@@ -3,6 +3,7 @@ import java.util.Scanner;
 /**
  * Created by John5 on 1/14/18.
  */
+
 public class Main {
 
     public static void main(String [] args) {
