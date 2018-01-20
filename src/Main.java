@@ -7,6 +7,8 @@ public class Main {
 
     public static void main(String [] args) {
 
+        //TODO figure out how to make this loop until the user decides to exit the program.
+
         System.out.println("Enter Selection: \n");
         System.out.println(
                 "1 - Addition\n" +
