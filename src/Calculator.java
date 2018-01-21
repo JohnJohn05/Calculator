@@ -9,34 +9,34 @@ public class Calculator {
     Hi!
      */
 
-    public static void addition(int num1, int num2) {
+    public static void addition(double num1, double num2) {
 
-        int numberOne = num1;
-        int numberTwo = num2;
+        double numberOne = num1;
+        double numberTwo = num2;
 
-        int sum = numberOne + numberTwo;
+        double sum = numberOne + numberTwo;
 
         System.out.println(numberOne + " plus " + numberTwo + " = " + sum + "\n");
 
     }
 
-    public static void subtraction(int num1, int num2) {
+    public static void subtraction(double num1, double num2) {
 
-        int numberOne = num1;
-        int numberTwo = num2;
+        double numberOne = num1;
+        double numberTwo = num2;
 
-        int sum = numberOne - numberTwo;
+        double sum = numberOne - numberTwo;
 
         System.out.println(numberOne + " subtracting " + numberTwo + " = " + sum + "\n");
 
     }
 
-    public static void multiply(int num1, int num2) {
+    public static void multiply(double num1, double num2) {
 
-        int numberOne = num1;
-        int numberTwo = num2;
+        double numberOne = num1;
+        double numberTwo = num2;
 
-        int result = numberOne * numberTwo;
+        double result = numberOne * numberTwo;
 
         System.out.println(numberOne + " multipled by " + numberTwo + " = " + result + "\n");
     }

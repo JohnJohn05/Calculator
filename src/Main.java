@@ -9,7 +9,7 @@ public class Main {
     public static void main(String [] args) {
 
         //TODO figure out how to make this loop until the user decides to exit the program.
-
+//did u fart.
         int selection;
 
         //Tell the compiler to do the following code first, "Hey computer, do this for me"
@@ -29,24 +29,24 @@ public class Main {
             switch (selection) {
                 case 1: {
                     System.out.println("Please enter two numbers to be added: ");
-                    int one = kb.nextInt();
-                    int two = kb.nextInt();
+                    double one = kb.nextDouble();
+                    double two = kb.nextDouble();
                     Calculator.addition(one, two);
                     break;
                 }
 
                 case 2: {
                     System.out.println("Please enter two numbers to be subtract: ");
-                    int one = kb.nextInt();
-                    int two = kb.nextInt();
+                    double one = kb.nextDouble();
+                    double two = kb.nextDouble();
                     Calculator.subtraction(one, two);
                     break;
                 }
 
                 case 3: {
                     System.out.println("Please enter two numbers to be multiplied: ");
-                    int one = kb.nextInt();
-                    int two = kb.nextInt();
+                    double one = kb.nextDouble();
+                    double two = kb.nextDouble();
                     Calculator.multiply(one, two);
                     break;
                 }
