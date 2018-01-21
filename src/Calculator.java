@@ -16,7 +16,7 @@ public class Calculator {
 
         int sum = numberOne + numberTwo;
 
-        System.out.println(numberOne + " plus " + numberTwo + " = " + sum);
+        System.out.println(numberOne + " plus " + numberTwo + " = " + sum + "\n");
 
     }
 
@@ -27,7 +27,7 @@ public class Calculator {
 
         int sum = numberOne - numberTwo;
 
-        System.out.println(numberOne + " subtracting " + numberTwo + " = " + sum);
+        System.out.println(numberOne + " subtracting " + numberTwo + " = " + sum + "\n");
 
     }
 
@@ -38,7 +38,7 @@ public class Calculator {
 
         int result = numberOne * numberTwo;
 
-        System.out.println(numberOne + " multipled by " + numberTwo + " = " + result);
+        System.out.println(numberOne + " multipled by " + numberTwo + " = " + result + "\n");
     }
 
     public static void divide(double num1, double num2) {
@@ -48,7 +48,7 @@ public class Calculator {
 
         double quotient = (numberOne / numberTwo);
 
-        System.out.println(numberOne + " divided by " + numberTwo + " = " + quotient);
+        System.out.println(numberOne + " divided by " + numberTwo + " = " + quotient + "\n");
     }
 
 }
