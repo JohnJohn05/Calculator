@@ -12,7 +12,8 @@ public class Main {
 
         int selection;
 
-        do {                                                //Tell the compiler to do the following code first, "Hey computer, do this for me"
+        //Tell the compiler to do the following code first, "Hey computer, do this for me"
+        do {
             System.out.println("Enter Selection: \n");
             System.out.println(
                             "1 - Addition\n" +
