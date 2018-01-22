@@ -8,8 +8,11 @@ public class Main {
 
     public static void main(String [] args) {
 
-        //TODO figure out how to make this loop until the user decides to exit the program.
-//did u fart.
+        /*
+        I wanted to remind you of the great job you did today improving
+        the calculator!
+         */
+
         int selection;
 
         //Tell the compiler to do the following code first, "Hey computer, do this for me"
@@ -73,3 +76,5 @@ public class Main {
     }
 
 }
+
+
